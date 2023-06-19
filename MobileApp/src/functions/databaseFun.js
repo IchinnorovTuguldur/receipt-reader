@@ -1,6 +1,6 @@
 import 'react-native-url-polyfill/auto'
 import { createClient } from "@supabase/supabase-js";
-import env from "../../reactEnv.js"
+import env from "../functions/reactEnv"
 
 /*
 Database layer to interact with the js client and edge functions 
